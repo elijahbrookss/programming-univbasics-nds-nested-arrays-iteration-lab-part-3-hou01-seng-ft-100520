@@ -3,7 +3,7 @@ def join_nested_strings(src)
   for outer in src do
     for inner in outer do
       if inner.is_a?(String) then
-        string_array.sub(inner)
+        string_array.push(inner)
       end
     end
     
